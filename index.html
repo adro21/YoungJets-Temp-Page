@@ -1,0 +1,87 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+  
+
+
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+
+    <div id="logo"><img src="img/logo.png" /></div>
+
+    <div id="col1"><p>Welcome to the future home of YOUNGJETS. <br /> Our new new site is arriving soon</p></div>
+
+    <div id="col2"><p style="font-size:22px;">1-877-275-9336</p> <p style="margin-top:-24px;font-size:13.9px;">opetaions@youngjets.com</p></div>
+
+  </header>
+
+
+  <div role="main" id="main">
+
+     <div class="slide-img"><img src="img/interior.jpg" style="width:100% !important;" /> </div>
+
+    <div class="slide-img"> <img src="img/plane.jpg" style="width:100%;" /> </div>
+
+    <div class="slide-img"> <img src="img/seat.jpg" style="width:100%;" /> </div>
+
+    <div class="slide-img"> <img src="img/orange-sky.jpg" style="width:100%;" /> </div>
+
+  </div>
+  <footer>
+
+    <div id="footer-logo"><img src="img/footer-logo.jpg" /></div>
+
+    <div id="footer-col1"><p>YoungJets, LLC is not a direct or indirect “air carrier”. YoungJets, LLC does not own or operate any aircraft and acts solely as an agent in procuring charter services for our customers. Flights are flown under Part 121 or 135 of the Federal Aviation Regulations (“FAR”) or foreign equivalent (“Operators”), that exercise full operational control of the charter flights at all times.</p></div>
+
+  </footer>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="js/jquery.cycle.all.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('#main').cycle({
+    fx:     'fade', 
+    prev:    '#prev',
+    next:    '#next',
+    pause:   0, 
+    speed: 3000,
+    timeout: 5000     
+    
+       
+  });
+
+
+  
+  });
+
+
+  </script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
